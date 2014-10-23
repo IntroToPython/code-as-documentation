@@ -59,6 +59,14 @@ def firstn(n):
 sum_of_first_n = sum(firstn(1000000))
 ```
 
+```python
+# list comprehension
+doubles = [2 * n for n in range(50)]
+
+# same as the list comprehension above
+doubles = list(2 * n for n in range(50))
+```
+
 Tutorial
 =====================
 http://blog.miguelgrinberg.com/post/video-streaming-with-flask
